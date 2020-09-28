@@ -1,0 +1,31 @@
+/*Creat Logo Inside Hyperlink*/
+.content-1 {
+  background-image: url(../img/microsoft.png);
+  background-position: right;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.content-2 {
+  background-image: url(../img/1g.png);
+  background-position: right;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.content-3 {
+  background-image: url(../img/html5.png);
+  background-position: right;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.content-1.content-2.content-3 img {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+  outline: none;
+}
+
+/*End Code*/
